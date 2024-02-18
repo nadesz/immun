@@ -1,30 +1,34 @@
-    First line (DAMP, PAMP recognition)
+                           First line (DAMP, PAMP recognition)
 
-Toll-like receptors: 
-ec LxxLxLxxN->ligand->he/ho2mer
-ic TIR->TIRadaptor(ligand + 2mer)
+------------------------------------------------------------------------------------------
+                                 Toll-like receptors 
+                        ec: LxxLxLxxN -> ligand -> he/ho2merization
+                            signal if ligand binding + 2mer
 
-TLR1+2(surface, lipopeptides)
-    ->MyD88
+TLR1+2(surface, lipopeptides) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
 
-TLR2+6(surface, other lipopeptides)
-    ->MyD88
+TLR2+6(surface, other lipopeptides) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
 
-TLR2+2(surface, peptidoglycan)
-    ->MyD88
+TLR2+2(surface, peptidoglycan) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
 
 TLR4+4+CD14+MD2+bloodLPSbindingProt(surface, LPS)
-    ->MyD88
-    ->TRIF
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
+    -> TRIF(TIRadp) -> TBK1(stk) -> TRAF(e3l) + NIK(stk) -> 2x IKKa-p
 
-TLR5+5(ssurface, flagellin)
-    ->MyD88
+TLR5+5(surface, flagellin) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
 
-TLR3+3(endosome, dsRNA)
-    ->TRIF
+TLR3+3+UNC93B(endosome, dsRNA) 
+    -> TRIF(TIRadp) -> TBK1(stk) -> TRAF(e3l) + NIK(stk) -> 2x IKKa-p
 
-TLR7+7, TLR8+8(endosome, ssRNA)
-    ->MyD88
+TLR7+7+UNC93B(endosome, ssRNA) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
 
-TLR9+9(endosome, unmethylated CpG DNA)
-    ->MyD88
+TLR8+8+UNC93B(endosome, ssRNA) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
+
+TLR9+9+UNC93B(endosome, unmethylated CpG DNA) 
+    -> MyD88(TIRadp) -> IRAK1,4(stk) -> TRAF6(e3l) + TAK1(stk) -> NEMO-ub, IKKb-p
