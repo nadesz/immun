@@ -1,1 +1,30 @@
+    First line (DAMP, PAMP recognition)
 
+Toll-like receptors: 
+ec LxxLxLxxN->ligand->he/ho2mer
+ic TIR->TIRadaptor(ligand + 2mer)
+
+TLR1+2(surface, lipopeptides)
+    ->MyD88
+
+TLR2+6(surface, other lipopeptides)
+    ->MyD88
+
+TLR2+2(surface, peptidoglycan)
+    ->MyD88
+
+TLR4+4+CD14+MD2+bloodLPSbindingProt(surface, LPS)
+    ->MyD88
+    ->TRIF
+
+TLR5+5(ssurface, flagellin)
+    ->MyD88
+
+TLR3+3(endosome, dsRNA)
+    ->TRIF
+
+TLR7+7, TLR8+8(endosome, ssRNA)
+    ->MyD88
+
+TLR9+9(endosome, unmethylated CpG DNA)
+    ->MyD88
